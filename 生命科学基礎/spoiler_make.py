@@ -2,8 +2,8 @@
 import os
 
 path = os.getcwd()
-files = os.listdir()
-files_in = [s for s in files if 'md' in s and '_spoiler' not in s]
+files = os.listdir(path)
+files_in = [s for s in files if '.md' in s and '_spoiler' not in s]
 print(files_in)
 str_plus = '<style>\r\n   .spoiler { padding: 0 4px; color: #333; background: #333; border-radius: 4px; }\r\n  .spoiler:hover,\r\n  .spoiler:active { color: red; background: none; }\r\n</style>'
 for s in files_in:
@@ -15,6 +15,6 @@ for s in files_in:
         string_oldpart = f.read()
     string_spoiler = string_oldpart.replace('style="color: red; "', 'class="spoiler" ontouchstart')
     string_all_spoiler = str_plus + string_spoiler
-    with open(file_path_spoiler,'w') as f:
+    with open(file_path_spoiler,'w',encoding="utf-8_sig") as f:
         f.write(string_all_spoiler)
     print("finish "+file_name+ '.md')
