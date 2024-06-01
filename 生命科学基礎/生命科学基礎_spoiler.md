@@ -234,7 +234,7 @@ NADHとFADH2は上記の性質から<span class="spoiler" ontouchstart>補酵素
 酸素がなくて解糖系だけになると補酵素であるNAD+が完全に使われてしまうので、乳酸発酵をすることでNADHに戻してる
 
 ## 6 生物の発生
-<p><a herf="https://ocw.u-tokyo.ac.jp/lecture_files/gf_02/3/notes/ja/asashima03.pdf">東大のテキストがわかりやすかったのでおすすめ</a></p>
+<p><a href="https://ocw.u-tokyo.ac.jp/lecture_files/gf_02/3/notes/ja/asashima03.pdf">東大のテキストがわかりやすかったのでおすすめ</a></p>
 
 ここではカエルの誕生過程を追っていくよ  
 カエルの皮膚細胞の核を未受精卵の代わりに移植すると正常な個体ができる
