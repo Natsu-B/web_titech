@@ -1,0 +1,298 @@
+<style>
+   .spoiler { padding: 0 4px; color: #333; background: #333; border-radius: 4px; }
+  .spoiler:hover,
+  .spoiler:active { color: red; background: none; }
+</style><style>
+  .spoiler { padding: 0 4px; color: #333; background: #333; border-radius: 4px; }
+  .spoiler:hover,
+  .spoiler:active { color: red; background: none; }
+</style>
+# 生命科学基礎
+## 目次
+- [生命科学基礎](#生命科学基礎)
+  - [目次](#目次)
+  - [1 どうして生命科学を学ぶのか](#1-どうして生命科学を学ぶのか)
+  - [2 セントラルドグマ](#2-セントラルドグマ)
+    - [セントラルドグマとは](#セントラルドグマとは)
+    - [DNAとは](#dnaとは)
+    - [DNAの複製の仕組み](#dnaの複製の仕組み)
+    - [転写とは](#転写とは)
+  - [3 セントラルドグマの続きだよ](#3-セントラルドグマの続きだよ)
+    - [翻訳とは](#翻訳とは)
+    - [翻訳の流れ](#翻訳の流れ)
+  - [4 細胞の構造](#4-細胞の構造)
+    - [細胞いろいろ](#細胞いろいろ)
+    - [細胞の構成要素](#細胞の構成要素)
+    - [生物の分類](#生物の分類)
+    - [原核生物の構造](#原核生物の構造)
+    - [真核生物の特徴](#真核生物の特徴)
+      - [核](#核)
+      - [ミトコンドリア](#ミトコンドリア)
+      - [葉緑体](#葉緑体)
+      - [細胞内膜系(なぜかまとめには書いてない→でない?)](#細胞内膜系なぜかまとめには書いてないでない)
+      - [細胞骨格](#細胞骨格)
+      - [細胞外基質](#細胞外基質)
+      - [細胞間結合](#細胞間結合)
+  - [5 呼吸とエネルギー生産](#5-呼吸とエネルギー生産)
+    - [エネルギーとは](#エネルギーとは)
+    - [エネルギーの得かた](#エネルギーの得かた)
+    - [糖質(炭水化物)](#糖質炭水化物)
+    - [脂肪](#脂肪)
+    - [エネルギーの取り出し方](#エネルギーの取り出し方)
+    - [糖のATP産生の経路](#糖のatp産生の経路)
+      - [解糖系](#解糖系)
+      - [クエン酸回路](#クエン酸回路)
+      - [酸化的リン酸化](#酸化的リン酸化)
+    - [脂肪、タンパク質のATP産生の経路](#脂肪タンパク質のatp産生の経路)
+    - [嫌気的環境におけるATP合成](#嫌気的環境におけるatp合成)
+  - [6 生物の発生](#6-生物の発生)
+    - [受精卵と分裂](#受精卵と分裂)
+    - [原腸形成](#原腸形成)
+    - [その後](#その後)
+  - [7 体細胞分裂と減数分裂](#7-体細胞分裂と減数分裂)
+  - [減数分裂](#減数分裂)
+      - [用語](#用語)
+  - [その他](#その他)
+
+
+## 1 どうして生命科学を学ぶのか
+生命科学は色々使うし大事だよって偉い人が言ってた
+## 2 セントラルドグマ
+### セントラルドグマとは
+セントラルドグマはDNAに書き込まれた遺伝情報の流れで
+- DNAを<span class="spoiler" ontouchstart>複製</span>
+- DNAをmRNAに<span class="spoiler" ontouchstart>転写</span>
+- mRNAをタンパク質に<span class="spoiler" ontouchstart>翻訳</span>  
+
+の3つの働きが主である 以下ではこの3つの働きについて考える  
+DNA、RNA、タンパク質は<span class="spoiler" ontouchstart>異なる文字を使った配列情報</span>として理解するべき  
+DNAは核の中にあるよー  
+
+### DNAとは
+DNAは核の中にあり、巻き上げられて<span class="spoiler" ontouchstart>染色体</span>として保存されてる  
+染色体が複製されるとその2つになったものを<span class="spoiler" ontouchstart>姉妹染色分体</span>と呼び、それらは<span class="spoiler" ontouchstart>セントロメア</span>でつながってる  
+DNAは二重らせん構造を持ち、そのそれぞれは<span class="spoiler" ontouchstart>デオキシリボース</span>と<span class="spoiler" ontouchstart>リン酸</span>が交互につながった一本鎖に<span class="spoiler" ontouchstart>塩基</span>がつながった形となってる  
+塩基はATGC<span class="spoiler" ontouchstart>アデニン、チミン、グアニン、シトシン</span>がありそれぞれ<span class="spoiler" ontouchstart>A、T</span>が<span class="spoiler" ontouchstart>2本</span>、<span class="spoiler" ontouchstart>G、C</span>が<span class="spoiler" ontouchstart>3本</span>の<span class="spoiler" ontouchstart>水素結合</span>でつながり、対を作る<span class="spoiler" ontouchstart>相補性</span>を持っている
+これにより、片方の鎖の配列が決まればもう片方の配列も決まる  
+二重鎖の向きはそれぞれ逆向きなことに注意!  
+### DNAの複製の仕組み
+- 二重らせんがほどける
+- DNA合成が始まる起点の<span class="spoiler" ontouchstart>プライマー</span>がつくられる
+- <span class="spoiler" ontouchstart>DNAポリメラーゼ</span>がDNAの相補性を利用して<span class="spoiler" ontouchstart>デオキシリボヌクレオチド</span>をくっつけて相補的なDNA鎖を作る
+- 最後に逆向きで作られてたやつくっつける
+
+ほとんどの場合はDNAは変異を抑えられるけど抑えられないときがときたまある  
+変異は病気の原因になるけど、進化に必須!
+
+### 転写とは
+まず転写先のRNAを考えると、DNAは遺伝情報の<span class="spoiler" ontouchstart>貯蔵</span>が役割なのに対して、RNAはその<span class="spoiler" ontouchstart>発現</span>が役割  
+
+まずデオキシリボヌクレオチドが<span class="spoiler" ontouchstart>リボヌクレオチド</span>になり、塩基は<span class="spoiler" ontouchstart>チミン</span>が<span class="spoiler" ontouchstart>ウラシル</span>になる  
+
+DNAをRNAに転写するとき、まずDNA上の<span class="spoiler" ontouchstart>プロモーター</span>を目印に<span class="spoiler" ontouchstart>RNAポリメラーゼ</span>がDNAに結合し転写が開始される  
+転写をするとき、RNAに転写したい側のDNAを<span class="spoiler" ontouchstart>コード鎖</span>と呼び、対になる方を<span class="spoiler" ontouchstart>非コード鎖</span>と呼ぶ  
+
+RNAの転写もDNAの複製とほぼ同じため、RNAは非コード鎖に相補的な配列を作ることで目的のコード鎖(正確にはTがUになったやつ)を得ている  
+
+その後、RNAは加工されるがRNAの中の<span class="spoiler" ontouchstart>エキソン</span>と呼ばれる部分は<span class="spoiler" ontouchstart>タンパク質の配列情報を含む</span>ため、<span class="spoiler" ontouchstart>スプライシング</span>によっても残るが、<span class="spoiler" ontouchstart>イントロン</span>と呼ばれる部分はほとんどが削除される。その後、<span class="spoiler" ontouchstart>ポリA末端</span>を両側に付加し、出来上がったものが<span class="spoiler" ontouchstart>mRNA(メッセンジャーRNA)</span>と呼ばれる  
+このあと殻の外にmRNAは出ていって翻訳がなされる
+
+## 3 セントラルドグマの続きだよ
+### 翻訳とは
+翻訳はmRNAからタンパク質をつくるものである  
+タンパク質はメチオニンとかバリンが<span class="spoiler" ontouchstart>ペプチド結合</span>でつながったもので、<span class="spoiler" ontouchstart>1</span>-<span class="spoiler" ontouchstart>4</span>次構造まであるよ  
+翻訳するときにmRNAは<span class="spoiler" ontouchstart>3</span>つのヌクレオチドの単位である <span class="spoiler" ontouchstart>コドン</span>を単位として、特定のアミノ酸を指定する  
+コドンは<span class="spoiler" ontouchstart>4^3=64</span>通りあるのに対してアミノ酸は<span class="spoiler" ontouchstart>20種類</span>しかないから重複があったり、翻訳の開始、停止を指定するコドンもある  
+この重複はうまくできていて、3文字目が変わってもアミノ酸は変わらず、1,2文字目が変わっても似たアミノ酸に変わるだけですむことがほとんど  
+ただ、だめなこともあってヘモグロビンが変異しちゃって<span class="spoiler" ontouchstart>鎌状赤血球貧血</span>を引き起こすことも  
+<span class="spoiler" ontouchstart>**ほとんどの生物で遺伝暗号は共通である**</span>
+
+### 翻訳の流れ
+- そこらへん漂ってる<span class="spoiler" ontouchstart>tRNA</span>に対応するアミノ酸がくっつく
+- <span class="spoiler" ontouchstart>リボソーム</span>と開始コドンに結合する<span class="spoiler" ontouchstart>tRNA</span>がmRNAに結合する
+- 次々にtRNAがくっついてそれにくっついて持ってこられたアミノ酸が<span class="spoiler" ontouchstart>ペプチド結合</span>を隣り合ったアミノ酸で形成する
+- そんな感じでどんどん進んでく
+- 終始コドンまで来たら、おわり!
+
+## 4 細胞の構造
+### 細胞いろいろ
+生物はその基本要素である1つ以上の細胞からできてて、細胞から生じるといった理論: <span class="spoiler" ontouchstart>細胞理論</span>  
+一般的な<span class="spoiler" ontouchstart>光学顕微鏡</span>では200nmまでしか見れないので、10~20μmの細胞は見れない  
+よって内部構造がわかる<span class="spoiler" ontouchstart>透過型電子顕微鏡</span>や表面構造がわかる<span class="spoiler" ontouchstart>走査型電子顕微鏡</span>をつかう  
+細胞は<span class="spoiler" ontouchstart>体積</span>:<span class="spoiler" ontouchstart>表面積</span>のうち、前者が大きくなりすぎると栄養の取り込み、老廃物の排出が<span class="spoiler" ontouchstart>遅くなって</span>維持できない
+
+### 細胞の構成要素
+細胞膜の構造として<span class="spoiler" ontouchstart>リン脂質</span>、<span class="spoiler" ontouchstart>脂質二重層</span>、<span class="spoiler" ontouchstart>膜タンパク質</span>がある  
+<span class="spoiler" ontouchstart>リン脂質</span>は細胞膜のほとんどを占め、リン酸基とかで構成される<span class="spoiler" ontouchstart>親水性頭部</span>と脂肪酸で構成される<span class="spoiler" ontouchstart>疎水性尾部</span>がある  
+その2つが疎水部を互いに向け、親水部を外に向けてくっついて並んだものが<span class="spoiler" ontouchstart>脂質二重層</span>である
+これにより細胞膜は**細胞の外部と内部を隔てる**ことができる  
+細胞膜を細胞内外を単純に隔てるのに加えてその他の役割を果たせるようにしているのが、<span class="spoiler" ontouchstart>膜タンパク質</span>である  
+<span class="spoiler" ontouchstart>受容体タンパク質</span>は細胞外の特定の物質に結合して細胞応答を引き起こし、<span class="spoiler" ontouchstart>接着タンパク質</span>は多細胞生物に必須な、細胞同士を接着できる能力を提供する また、<span class="spoiler" ontouchstart>輸送タンパク質</span>は特定の物質の細胞への出入りを助ける  
+
+細胞膜は、脂質二重層のなかに、リン脂質、タンパク質、コレステロールが入り混じっておりこの中を移動することができる これを<span class="spoiler" ontouchstart>流動モザイクモデル</span>という
+
+### 生物の分類
+細胞には原生生物、真菌類、植物、動物の<span class="spoiler" ontouchstart>真核細胞</span>と細菌やアーキアに代表される<span class="spoiler" ontouchstart>原核細胞</span>があり、それぞれ核を持つ、持たないの違いがある。 **核を持たないのに多細胞である生物はいない**  
+
+### 原核生物の構造
+核がないのが一番の特徴  
+DNAは<span class="spoiler" ontouchstart>核様体</span>内にある  
+原核生物、真核生物に共通する要素として、細胞の外と内を隔てる<span class="spoiler" ontouchstart>細胞膜</span>、その中のゲル状になってる<span class="spoiler" ontouchstart>細胞質</span>、DNAがあげられる
+
+### 真核生物の特徴
+細胞質の中に多くの<span class="spoiler" ontouchstart>細胞小器官</span>(脂質二重膜で区切られている場合が多い)が存在する  
+
+#### 核
+核はDNAを保持することに加えて、<span class="spoiler" ontouchstart>核と細胞質の間における分子(RNA,タンパク質)の行き来を制御する</span>ことも仕事にしている  
+
+- 核が外と内を隔てられるようにしている膜: <span class="spoiler" ontouchstart>核膜</span>
+- その膜の外と内で物質をやり取りできるようにしているもの: <span class="spoiler" ontouchstart>核膜孔</span>
+- その膜を維持する繊維状のタンパク質: <span class="spoiler" ontouchstart>核ラミナ</span>
+
+#### ミトコンドリア
+
+ミトコンドリアの機能としては<span class="spoiler" ontouchstart>好気呼吸</span>による<span class="spoiler" ontouchstart>ATP合成</span>があり、エネルギー産生に重要な役割を果たしている  
+その特徴として<span class="spoiler" ontouchstart>**独自にDNAとリボソームを持つ**</span>ことが挙げられ、分裂時には<span class="spoiler" ontouchstart>細胞と独立して分裂</span>する  
+外側から 外膜、膜間腔、内膜、マトリックスと構成されていて、二枚の脂質二重膜で構成されてる
+
+#### 葉緑体
+これもミトコンドリアと同じで独自のDNAとリボソームを持ち、分裂も独立して行っている特徴がある  
+機能としては<span class="spoiler" ontouchstart>光合成</span>で<span class="spoiler" ontouchstart>糖質</span>を合成する役割である  
+植物・藻類のみしか持たない
+
+#### 細胞内膜系(なぜかまとめには書いてない→でない?)
+- 小胞体には2つの種類があり、<span class="spoiler" ontouchstart>リボソーム</span>が表面についてる<span class="spoiler" ontouchstart>粗面小胞体</span>の役割として<span class="spoiler" ontouchstart>ポリペプチド(タンパク質)の合成</span>がある 一方で表面に何もついていない<span class="spoiler" ontouchstart>滑面小胞体</span>は<span class="spoiler" ontouchstart>リン脂質の生成やCaの貯蔵</span>などの役割がある
+- その後タンパク質は 、細胞小器官の間での物質の貯蔵と輸送を担う<span class="spoiler" ontouchstart>小胞</span>で輸送され、その後小胞体で生成したタンパク質、脂質を修飾し完成させる役割を持った<span class="spoiler" ontouchstart>ゴルジ体</span>に運ばれそこで仕分けされて小胞により運ばれ、一部は細胞膜に融合して細胞のタンパク質の分泌や細胞膜への脂質やタンパク質への供給が行われる。
+- ゴルジ体から出芽し、強力な酵素を含んでタンパク質や毒素の分解を行うものは<span class="spoiler" ontouchstart>リソソーム</span>と呼ばれる
+
+#### 細胞骨格
+細胞骨格には<span class="spoiler" ontouchstart>チューブリン</span>タンパク質によって構成されて細胞の運動や小胞の輸送を担う<span class="spoiler" ontouchstart>微小管</span>、<span class="spoiler" ontouchstart>アクチン</span>タンパク質で形成されて細胞の運動や筋収縮の役割を持つ<span class="spoiler" ontouchstart>ミクロフィラメント</span>、細胞等の組織構造(核ラミナ、毛髪)を担う<span class="spoiler" ontouchstart>中間系フィラメント</span>がある  
+
+細胞骨格の働きとして、微小管やミクロフィラメントに沿って小胞を運ぶ<span class="spoiler" ontouchstart>モータータンパク質</span>や、ミドリムシ、精子を液体中で前進させる<span class="spoiler" ontouchstart>鞭毛</span>、アメーバとかの突起を動かして餌や獲物を取り込む<span class="spoiler" ontouchstart>仮足(偽足)</span>等がある
+
+#### 細胞外基質
+細胞内から分泌され形成される多糖類や繊維状タンパク質を主とする分子の混合物
+
+- 細胞接着の足場となり組織を構造的に支持する: <span class="spoiler" ontouchstart>基底膜</span>
+- 植物、菌類等に見られ細胞保護と個体の強度を高める:<span class="spoiler" ontouchstart>細胞壁</span>
+- 害虫や感想から植物の細胞を守る: <span class="spoiler" ontouchstart>クチクラ</span>
+- カニ、クモ等の節足動物で見られ、多糖類で構成される: <span class="spoiler" ontouchstart>キチン</span>
+
+#### 細胞間結合
+多細胞生物において、細胞間の結合を行うもの
+- 細胞間の隙間を狭くして体液漏らさない: <span class="spoiler" ontouchstart>密着結合</span> 
+- 隣接細胞や細胞外基質の結合のみならず、細胞骨格とも連結することで細胞の固定やシグナル伝達する: <span class="spoiler" ontouchstart>接着結合</span>
+- 筒状のタンパク質の集合により細胞質の低分子の物質交換を行う: <span class="spoiler" ontouchstart>ギャップ結合</span>
+
+## 5 呼吸とエネルギー生産
+### エネルギーとは
+エネルギーは仕事する能力って考えるのがいい  
+一日生命活動を維持するのに必要な最小のエネルギー量(<span class="spoiler" ontouchstart>基礎代謝量</span>)は1200~1500kal/day
+
+### エネルギーの得かた
+食物から得た有機物からエネルギーを得てる  
+三大栄養素は<span class="spoiler" ontouchstart>糖質</span>、<span class="spoiler" ontouchstart>脂質</span>、<span class="spoiler" ontouchstart>タンパク質</span>があり消化・分解されて高分子→低分子になることでそれぞれ<span class="spoiler" ontouchstart>単糖</span>、<span class="spoiler" ontouchstart>脂肪酸、グリセロール</span>、<span class="spoiler" ontouchstart>アミノ酸</span>になる  
+
+### 糖質(炭水化物)
+多糖とは<span class="spoiler" ontouchstart>グルコース</span>のみで構成される  
+代表的な多糖として植物のエネルギー貯蔵体として<span class="spoiler" ontouchstart>デンプン</span>、植物の細胞壁等の主成分として<span class="spoiler" ontouchstart>セルロース</span>、動物のエネルギー貯蔵体として<span class="spoiler" ontouchstart>グリコーゲン</span>がある  
+
+### 脂肪
+動物性脂肪は<span class="spoiler" ontouchstart>飽和脂肪酸</span>、植物油は<span class="spoiler" ontouchstart>不飽和脂肪酸</span>の率が高い  
+不飽和脂肪酸にはシス型、トランス型のどちらの型の二重結合をしているかでシス脂肪酸、トランス脂肪酸に分けられる  
+
+### エネルギーの取り出し方
+有機物を変換し、エネルギーを使ったり得たりする活動を<span class="spoiler" ontouchstart>代謝</span>という  
+消化・分解して低分子にした後、細胞の中で段階的に酵素により変換される<span class="spoiler" ontouchstart>代謝経路</span>を経てエネルギーを取り出す  
+酵素は活性化エネルギーを下げる、また<span class="spoiler" ontouchstart>基質特異性</span>を決定する  
+ATPを加水分解してADPにするとエネルギーを放出する 体内ではATPの形でエネルギーを蓄えている  
+好気呼吸をすることで真核生物はATPを効率よく作ることができる  
+**直接糖をCO2に変えるには非常に大きな活性化エネルギーが必要なため不可能である よって、段階的に酸化していくことで活性化エネルギーが小さくてすみ、体温で反応が進むようになってる!!**
+
+### 糖のATP産生の経路
+#### 解糖系
+まず最初に糖質(グルコース)を解糖系によってピルビン酸×2とNADH×2,ATP×2に酸化する  
+ここまでが細胞質で行われ、この先はミトコンドリアで行われることに注意!!
+
+#### クエン酸回路
+糖質を解糖系に通して得たピルビン酸からクエン酸回路を通すことでCO2×6とATP×2、NADH×8、FADH2×2を得る たぶん個数はそこまで重要でなくなにがどう変わるかを把握するほうが重要  
+
+#### 酸化的リン酸化
+NADHとFADH2からATPを得る過程が酸化的リン酸化である これは、ミトコンドリアの内膜で行われる  
+NADHとFADH2は解糖系やクエン酸回路でのエネルギーの一部を<span class="spoiler" ontouchstart>還元力</span>として保持してる  
+NADHとFADH2は上記の性質から<span class="spoiler" ontouchstart>補酵素</span>と呼ばれている  
+補酵素の定義は有機分子性の<span class="spoiler" ontouchstart>補因子</span>(酵素を助ける因子)といったものである
+まず、NADHとFADH2をミトコンドリアの電子伝達系に送るとNADH、FADH2がそれぞれNAD+、FADになってそれに伴い放出された水素イオンが内膜で仕切られた膜間腔にたまり、濃度勾配が発生するので濃度が薄いマトリックス側に行こうとして水素イオンが移動する途中にATP合成酵素を通り、その過程でADPがATPに変わる  
+酸化的リン酸化はATP×32程度発生させられるので代謝において必須であり、この酸化的リン酸化のみ酸素を消費する(もし嫌気環境であればATPが解糖系とクエン酸回路の4つしかもらえない!!!)  
+
+### 脂肪、タンパク質のATP産生の経路
+脂肪はΒ酸化を経たあとクエン酸回路と酸化的リン酸化と進んでいく  
+グルコースより脂肪のほうがATPは<span class="spoiler" ontouchstart>多く</span>生成できる  
+タンパク質はようわからんけど解糖系はつかわない  
+
+### 嫌気的環境におけるATP合成
+酸素がなくて解糖系だけになると補酵素であるNAD+が完全に使われてしまうので、乳酸発酵をすることでNADHに戻してる
+
+## 6 生物の発生
+<p><a herf="https://ocw.u-tokyo.ac.jp/lecture_files/gf_02/3/notes/ja/asashima03.pdf">東大のテキストがわかりやすかったのでおすすめ</a></p>
+
+ここではカエルの誕生過程を追っていくよ  
+カエルの皮膚細胞の核を未受精卵の代わりに移植すると正常な個体ができる
+
+生物は以下のような経路をたどって誕生する
+- 受精卵
+- 桑実胚
+- 胞胚
+- 原腸胚
+- 神経胚
+- 尾芽胚
+
+### 受精卵と分裂
+未受精卵に精子が侵入すると動物極側(色が濃い方)の卵の表層(皮層)が15度ぐらい回転し、侵入地点の反対側に<span class="spoiler" ontouchstart>灰色三日月環</span>が生じる  
+その後、初期の体細胞分裂である<span class="spoiler" ontouchstart>卵割</span>が始まる  
+これは<span class="spoiler" ontouchstart>桑実胚期</span>を経て<span class="spoiler" ontouchstart>胞胚</span>を形成して終了するが、この中の中空構造のことを<span class="spoiler" ontouchstart>卵割腔</span>という  
+このとき、植物極側は<span class="spoiler" ontouchstart>卵黄</span>があるため、細胞分裂が邪魔され細胞の数は動物極側に比べて少なくなる。  
+
+桑実胚~胞胚になるときに、中胚葉が作られる  
+表皮、神経を作り出す<span class="spoiler" ontouchstart>外胚葉</span>、心臓以外の内蔵を作る<span class="spoiler" ontouchstart>内胚葉</span>はそれぞれ動物極側、植物極側から発生するが、心臓、骨、筋肉をつくる<span class="spoiler" ontouchstart>中胚葉</span>は特殊で<span class="spoiler" ontouchstart>内胚葉</span>が<span class="spoiler" ontouchstart>外胚葉に</span>シグナルを送り、中胚葉を作り出すといったプロセスを経る(<span class="spoiler" ontouchstart>中胚葉誘導</span>)  
+その後、オーガナイザー(誘導体)である<span class="spoiler" ontouchstart>背側内胚葉</span>と腹側内胚葉に分かれる  
+誘導という単語はある部位が隣り合うその他の部位に働きかけてかつその部位が変化するときのみ使うことができることに注意!  
+
+### 原腸形成
+初期の細胞分裂が終了し胞胚ができたあと、細胞は原腸形成という形態の再編成を行う  
+これは<span class="spoiler" ontouchstart>初期</span>、<span class="spoiler" ontouchstart>中期</span>、<span class="spoiler" ontouchstart>後期</span> <span class="spoiler" ontouchstart>原腸胚</span>とよばれる過程を経るが、中胚葉の一部が胚の中に潜り込むことで<span class="spoiler" ontouchstart>原口</span>が形成される  
+その中の表層付近の<span class="spoiler" ontouchstart>背側内胚葉</span>を(カエルでは)<span class="spoiler" ontouchstart>原口背唇部</span>(別名: <span class="spoiler" ontouchstart>(シュペーマン)オーガナイザー</span>)といい、これは<span class="spoiler" ontouchstart>原腸</span>、さらには体全体の形成を誘導するので、他の胚に移植すると体が2つ形成されたクリーチャーができる  
+この原腸形成が終了したとき、細胞は<span class="spoiler" ontouchstart>内胚葉</span>、<span class="spoiler" ontouchstart>中胚葉</span>、<span class="spoiler" ontouchstart>外胚葉</span>の3つに種類分けされる これを<span class="spoiler" ontouchstart>三胚葉</span>とよぶ    
+また、この過程で胞胚腔は **<span class="spoiler" ontouchstart>消滅する</span>** ことに注意!(授業中強調してた)
+
+### その後
+陥入した中胚葉が外胚葉を<span class="spoiler" ontouchstart>神経</span>へ誘導する
+これにより<span class="spoiler" ontouchstart>神経板</span>ができ、これが隆起して<span class="spoiler" ontouchstart>神経管</span>を形成する
+この次に表皮で神経管が覆われるが、これには<span class="spoiler" ontouchstart>細胞接着因子</span>が強く関わっており同じ種類の接着因子を持つ細胞が結合することでうまく神経と表皮がそれぞれ単体で結合することができるようになってる  
+表皮と神経管の間はどっちの接着因子も持たない細胞たちがいて、そいつらは<span class="spoiler" ontouchstart>神経冠[神経堤] (細胞)</span>とよばれる  
+こいつらは<span class="spoiler" ontouchstart>外胚葉</span>由来で多能性があり、顔面の骨、軟骨、色素細胞等に位置によって分化する  
+これにより<span class="spoiler" ontouchstart>神経胚</span>となり、さらに消化管等ができることで<span class="spoiler" ontouchstart>尾芽胚</span>となり動き出し、やがて孵化する
+
+## 7 体細胞分裂と減数分裂
+まず人間には46本の染色体があり半分ずつ父親、母親から受け継いでる
+そのうち2本が性染色体でXX、XYがそれぞれ女性、男性を示している ほかは常染色体
+
+体細胞分裂は染色体を2n=4持つ<span class="spoiler" ontouchstart>母細胞</span>から染色体を2n=4持つ<span class="spoiler" ontouchstart>娘細胞</span>を生じる分裂の仕方で、これは通常時に細胞が増殖するために行う分裂である  
+減数分裂は染色体を2n=4持つ母細胞から染色体がn=2と半分になった娘細胞(<span class="spoiler" ontouchstart>配偶子</span>)を持つ分裂の仕方で有性生殖のときに行われる  
+
+## 減数分裂
+もともと卵母細胞、精母細胞っていうやつから第一、第二減数分裂が起こって、卵子、精子になる  
+第一減数分裂のときに起こる乗り換えが重要!! (テストに出るのここだけだと思う)  
+これは次のような順番で起きる
+- まずDNAが複製され、<span class="spoiler" ontouchstart>姉妹染色分体</span>ができる
+- <span class="spoiler" ontouchstart>相同染色体</span>同士がくっついて<span class="spoiler" ontouchstart>二価染色体</span>を形成する
+- <span class="spoiler" ontouchstart>二価染色体</span>同士で<span class="spoiler" ontouchstart>乗り換え</span>が起こり、遺伝子の一部が交代する
+- くっついてる遺伝子たちを引っ張って外す
+#### 用語
+対立遺伝子: <span class="spoiler" ontouchstart>染色体上の相同の遺伝子座を占める遺伝子</span>  
+姉妹染色分体: <span class="spoiler" ontouchstart>DNA複製後の同じ遺伝情報を持つ2本の染色分体</span>  
+相同染色体: <span class="spoiler" ontouchstart>父方および母方から由来した形態の相等しい1対の染色体</span>
+
+## その他
+なんかコヒーシンが姉妹染色分体の接着をするクリップの役割してて、それは時間の経過とともに消耗するらしい  
+あとは高齢出産がーとかデザイナーベイビーがーとか染色体を人工的にいじるのがーとか言ってた
