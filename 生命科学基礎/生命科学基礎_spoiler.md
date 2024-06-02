@@ -140,7 +140,7 @@ DNAは<span class="spoiler" ontouchstart>核様体</span>内にある
 原核生物、真核生物に共通する要素として、細胞の外と内を隔てる<span class="spoiler" ontouchstart>細胞膜</span>、その中のゲル状になってる<span class="spoiler" ontouchstart>細胞質</span>、DNAがあげられる
 
 ### 真核生物の特徴
-細胞質の中に多くの<span class="spoiler" ontouchstart>細胞小器官</span>(脂質二重膜で区切られている場合が多い)が存在する  
+細胞質の中に多くの<span class="spoiler" ontouchstart>細胞小器官</span>(別名<span class="spoiler" ontouchstart>オルガネラ</span>)(脂質二重膜で区切られている場合が多い)が存在する  
 
 #### 核
 核はDNAを保持することに加えて、<span class="spoiler" ontouchstart>核と細胞質の間における分子(RNA,タンパク質)の行き来を制御する</span>ことも仕事にしている  
@@ -175,7 +175,7 @@ DNAは<span class="spoiler" ontouchstart>核様体</span>内にある
 
 - 細胞接着の足場となり組織を構造的に支持する: <span class="spoiler" ontouchstart>基底膜</span>
 - 植物、菌類等に見られ細胞保護と個体の強度を高める:<span class="spoiler" ontouchstart>細胞壁</span>
-- 害虫や感想から植物の細胞を守る: <span class="spoiler" ontouchstart>クチクラ</span>
+- 害虫や乾燥から植物の細胞を守る: <span class="spoiler" ontouchstart>クチクラ</span>
 - カニ、クモ等の節足動物で見られ、多糖類で構成される: <span class="spoiler" ontouchstart>キチン</span>
 
 #### 細胞間結合

@@ -3,6 +3,7 @@ import os
 
 path = os.getcwd()
 files = os.listdir(path)
+print(files)
 files_in = [s for s in files if '.md' in s and '_spoiler' not in s]
 print(files_in)
 str_plus = '<style>\r\n   .spoiler { padding: 0 4px; color: #333; background: #333; border-radius: 4px; }\r\n  .spoiler:hover,\r\n  .spoiler:active { color: red; background: none; }\r\n</style>'
